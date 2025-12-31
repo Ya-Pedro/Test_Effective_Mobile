@@ -2,7 +2,7 @@ FROM python:3.9.25-alpine3.22
 
 WORKDIR /app
 
-COPY . .
+COPY /backend .
 
 EXPOSE 8080
 
